@@ -1,0 +1,15 @@
+gtts==2.5.4
+packaging==26.2
+python-dateutil==2.9.0.post0
+newspaper3k==0.2.8
+pillow==12.2.0
+tldextract==5.3.1
+filelock==3.29.1
+lxml==6.1.1
+lxml_html_clean==0.4.5
+PyYAML==6.0.3
+certifi==2026.5.20
+eyed3==0.9.9
+mutagen==1.47.0
+praw==7.8.1
+requests==2.34.2
