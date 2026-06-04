@@ -1,0 +1,94 @@
+name: List of Actions to Monitor
+permissions:
+  contents: read
+  pull-requests: write
+
+# INSTRUCTIONS:
+## ADD your actions to the list below
+## REMOVE any existing actions you don't want to monitor
+### Update Levels:
+  #^ Monitor all releases (even patch releases) by specifying the full version:
+    #- uses: actions/checkout@v6.0.3
+  ### or
+  #^ Monitor only full releases, by just including the top level number:
+    #- uses: actions/checkout@v6
+
+
+on:
+  workflow_dispatch:
+
+jobs:
+
+  run_update_notifier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6.0.3
+        name: Checkout
+
+      - name: Cache Python environment
+        id: cache-python-env-patches
+        uses: actions/cache@v5.0.5
+        with:
+          path: ~/.venv
+          key: ${{ runner.os }}-notifier-python
+          restore-keys: ${{ runner.os }}-notifier-python-
+
+      - name: Setup Python
+        if: steps.cache-python-env.outputs.cache-hit != 'true'
+        uses: actions/setup-python@v6.2.0
+        with:
+          python-version: "3.x"
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v4.36.1
+        with:
+          languages: 'typescript'
+
+      - name: create issue 0
+        id: wr0
+        if: ${{ env.RESULTFOUND0 > 0 }}
+        uses: dacbd/create-issue-action@v2.0.0
+        with:
+          token: ${{ github.token }}
+          title: Test
+          body: |
+            Test
+
+      - name: create issue 1
+        id: wr1
+        if: ${{ env.RESULTFOUND0 > 0 }}
+        uses: BenRogersWPG/create-issue-action@v0.1.2
+        with:
+          token: ${{ github.token }}
+          title: Test
+          body: |
+            Test
+
+      - name: update issue 0
+        if: ${{ env.RESULTFOUND0 > 0 }}
+        uses: julien-deramond/update-issue-body@v1.1.0
+        with:
+          issue-number: ${{ steps.wr0.outputs.number }}
+          body: |
+            test
+          edit-mode: replace
+
+      - name: update issue 1
+        if: ${{ env.RESULTFOUND0 > 0 }}
+        uses: BenRogersWPG/update-issue-body@v2.0.0
+        with:
+          issue-number: ${{ steps.wr1.outputs.number }}
+          body: |
+            test
+          edit-mode: replace
+
+      - name: Upload JSON file
+        uses: actions/upload-artifact@v7.0.1
+        with:
+          name: readme
+          path: README.md
+
+      - name: Get Artifact
+        uses: actions/download-artifact@v8.0.1
+        with:
+          name: env-vars
