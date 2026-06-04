@@ -6,4 +6,4 @@ The latest version of the repository will always be supported. Ensure your fork 
 
 ## Reporting a Vulnerability
 
-To report a vulnerability, please [submit an issue](https://github.com/BenRogersWPG/Github-Actions-Update-Notifier/issues/new/choose) and and choose the *Report a security vulnerability option*.
+To report a vulnerability, please [submit an issue](https://github.com/BenRogersWPG/pip-Update-Notifier/issues/new/choose) and and choose the *Report a security vulnerability option*.
