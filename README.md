@@ -28,7 +28,7 @@ When the above is all set up, you will receive a pull request when any of the pa
 
 
 ## You Are In Control
-You choose what notifications you want. You can monitor only the full releases (eg. from 3.1.5 to 4.0.0) or the patch releases (eg. from 3.1.5 to 3.1.6). You can choose this per action too, so you can get as-granular as you want for the packages you care about the most. *(instructions how to do this are found in the [notifier.yml](.github/workflows/notifier.yml) file)*
+You choose what notifications you want. You can monitor only the full releases (eg. from 3.1.5 to 4.0.0) or the patch releases (eg. from 3.1.5 to 3.1.6). You can choose this per action too, so you can get as-granular as you want for the packages you care about the most. *(instructions how to do this are found in the [requirements.txt](/src/requirements.txt) file) *
 
 
 *This project is based off of my [GitHub Actions Update Notifier](https://github.com/BenRogersWPG/pip-Update-Notifier).*
