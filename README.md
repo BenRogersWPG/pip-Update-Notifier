@@ -32,3 +32,5 @@ You choose what notifications you want. You can monitor only the full releases (
 
 
 *This project is based off of my [GitHub Actions Update Notifier](https://github.com/BenRogersWPG/pip-Update-Notifier).*
+
+[![Dependabot Updates](https://github.com/BenRogersWPG/pip-Update-Notifier/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/BenRogersWPG/pip-Update-Notifier/actions/workflows/dependabot/dependabot-updates)
