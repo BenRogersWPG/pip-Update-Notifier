@@ -26,6 +26,9 @@ When the above is all set up, you will receive a pull request when any of the pa
 - A compatibility percentage with your current version.
 - A list of all the files that have been changed in the action's repository since your last update.
 
+### Run Dependabot
+- Once you are all set, [run dependabot](../../network/updates) and try it out
+
 
 ## You Are In Control
 You choose what notifications you want. You can monitor only the full releases (eg. from 3.1.5 to 4.0.0) or the patch releases (eg. from 3.1.5 to 3.1.6). You can choose this per action too, so you can get as-granular as you want for the packages you care about the most. *(instructions how to do this are found in the [requirements.txt](/src/requirements.txt) file) *
