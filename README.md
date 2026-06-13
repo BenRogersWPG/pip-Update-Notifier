@@ -29,6 +29,8 @@ When the above is all set up, you will receive a pull request when any of the pa
 ### Run Dependabot
 - Once you are all set, [run dependabot](../../network/updates) and try it out
 
+### Improves Security
+- This project improves your application security by locking Python packages to current-approved versions and requiring user intervention before new versions are used, preventing things like pulling latest potentially unsafe compromised/untested versions.
 
 ## You Are In Control
 You choose what notifications you want. You can monitor only the full releases (eg. from 3.1.5 to 4.0.0) or the patch releases (eg. from 3.1.5 to 3.1.6). You can choose this per action too, so you can get as-granular as you want for the packages you care about the most. *(instructions how to do this are found in the [requirements.txt](/src/requirements.txt) file)*
