@@ -27,7 +27,7 @@ When the above is all set up, you will receive a pull request when any of the pa
 - A list of all the files that have been changed in the action's repository since your last update.
 
 ### Run Dependabot
-- Once you are all set, [run dependabot](../../network/updates) and try it out
+- Once you are all set, [run dependabot](../../network/updates) and try it out 🤖!
 
 ### Improves Security
 - This project improves your application security by locking Python packages to current-approved versions and requiring user intervention before new versions are used, preventing things like pulling latest potentially unsafe compromised/untested versions.
