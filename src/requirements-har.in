@@ -1,4 +1,4 @@
-selenium==4.43.0 \
+selenium==4.44.0 \
     --hash=sha256:4f97639055dcfa9eadf8ccf549ba7b0e49c655d4e2bde19b9a44e916b754e769
 requests==2.34.2 \
     --hash=sha256:bf38a3ff993960d3dd819c08862c40b3c703306eb7c744fcd9f4ddbb95b548f0
