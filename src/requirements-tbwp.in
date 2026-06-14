@@ -1,5 +1,5 @@
 PyGithub==2.9.1
-beautifulsoup4==4.14.3
+beautifulsoup4==4.15.0
 requests==2.34.2
 pysocks==1.7.1
 pycparser==3.0
