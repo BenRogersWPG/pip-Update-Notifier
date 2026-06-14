@@ -9,15 +9,23 @@ This project will *automatically* notify you in the form of a pull request when 
 2. Update [requirements.in](/src/requirements.in) with the packages you want to monitor. You can find the list of packages in the file, and I have included instructions in it to help you there, too.
 3. Save and commit
 4. Install pip-tools (if you don't have it installed yet)
-   1. `pip install pip-tools`
+   ```bash
+   pip install pip-tools
+   ```
 5. Compile requirements.in with hashes and auto-generate the safe requirements.txt file
-   1. `pip-compile --generate-hashes requirements.in`
+   ```bash
+   pip-compile --generate-hashes requirements.in
+   ```
 6. Set up and run dependabot, specifically targeting pip packages.
    1. Go to your forked repository on GitHub.
    2. Click on the "Settings" tab.
    3. On the left sidebar, click on "Code Security".
    4. Under the Dependabot section, enable the very last entry, "Dependabot version updates".
    5. Enable other dependabot options if you want to be notified on other aspects of your repository too. Also important if you want to be notified on security vulnerabilities.
+7. When using the generated requirements.txt file in your project, force hash requirements to ensure it verifies against your expected hashes:
+```bash
+pip install --require-hashes -r requirements.txt
+```
 
 ## What It Does
 When the above is all set up, you will receive a pull request when any of the packages you are monitoring are updated. The pull request will contain the following information:
