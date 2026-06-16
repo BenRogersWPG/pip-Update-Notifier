@@ -2,3 +2,5 @@ selenium==4.44.0 \
     --hash=sha256:4f97639055dcfa9eadf8ccf549ba7b0e49c655d4e2bde19b9a44e916b754e769
 requests==2.34.2 \
     --hash=sha256:bf38a3ff993960d3dd819c08862c40b3c703306eb7c744fcd9f4ddbb95b548f0
+haralyzer==2.4.0 \
+    --hash=sha256:b66d2bf873fc70d0288def5db8885ee005024f088cf745ef918beadafd2d7df2
