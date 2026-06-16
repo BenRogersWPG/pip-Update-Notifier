@@ -11,7 +11,7 @@ sortedcontainers==2.4.0
 python-dotenv==1.2.2
 requests==2.34.2
 trio==0.33.0
-cryptography==48.0.0
+cryptography==48.0.1
 pillow==12.2.0
 selenium-wire== 5.1.0
 urllib3==2.7.0
