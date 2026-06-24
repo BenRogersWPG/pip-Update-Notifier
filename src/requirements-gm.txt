@@ -251,6 +251,10 @@ click==8.1.8 \
     --hash=sha256:63c132bbbed01578a06712a2d1f497bb62d9c1c0d329b7903a866228027263b2 \
     --hash=sha256:ed53c9d8990d83c2a27deae68e4ee337473f6330c040a31d4225c9574d16096a
     # via gtts
+defusedxml==0.7.1 \
+    --hash=sha256:1bb3032db185915b62d7c6209c5a8792be6a32ab2fedacc84e01b52c51aa3e69 \
+    --hash=sha256:a352e7e428770286cc899e2542b6cdaedb2b4953ff269a210103ec58f6198a61
+    # via praw
 deprecation==2.1.0 \
     --hash=sha256:72b3bde64e5d778694b0cf68178aed03d15e15477116add3fb773e581f9518ff \
     --hash=sha256:a10811591210e1fb0e768a8c25517cabeabcba6f0bf96564f8ff45189f90b14a
@@ -535,13 +539,13 @@ pillow==12.2.0 \
     # via
     #   -r requirements-gm.in
     #   newspaper4k
-praw==7.8.2 \
-    --hash=sha256:6230a2329e5c927ebbb45ebeb17d60761ace5ed65336a78fcfeab49937b9615b \
-    --hash=sha256:ab0e2da4e1c03c6cfb3fdb91c1ddf3a42ecd09d6f09222ad5393ac89e8b97af5
+praw==8.0.1 \
+    --hash=sha256:18295994d07b17a565d4663a8778319243c56d7b49fae2504b448607551dfdff \
+    --hash=sha256:4083ae0a60d9784e1af4911fa4d87be3518c957636a4001de232fd82c9ac6353
     # via -r requirements-gm.in
-prawcore==2.4.0 \
-    --hash=sha256:29af5da58d85704b439ad3c820873ad541f4535e00bb98c66f0fbcc8c603065a \
-    --hash=sha256:b7b2b5a1d04406e086ab4e79988dc794df16059862f329f4c6a43ed09986c335
+prawcore==4.0.0 \
+    --hash=sha256:53f91bcd4cb25a26ca58f3ba7c5bf83d9d93a74025aae2c926bc6b0d5fd11df7 \
+    --hash=sha256:c7e4d6e1b71e2b9c88680aee467e3e07d22df4c91bb01488ce2a3ab43d76b076
     # via praw
 python-dateutil==2.9.0.post0 \
     --hash=sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3 \
