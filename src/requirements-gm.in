@@ -10,6 +10,6 @@ lxml-html-clean==0.4.4
 PyYAML==6.0.3
 certifi==2026.5.20
 eyed3==0.9.9
-mutagen==1.47.0
+mutagen==1.48.0
 praw==8.0.1
 requests==2.34.2
