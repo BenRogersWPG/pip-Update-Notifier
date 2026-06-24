@@ -1,5 +1,5 @@
 PyGithub==2.9.1
-selenium==4.44.0
+selenium==4.45.0
 packaging==26.2
 beautifulsoup4==4.15.0
 pysocks==1.7.1
