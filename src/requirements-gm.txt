@@ -430,9 +430,9 @@ lxml-html-clean==0.4.4 \
     # via
     #   -r requirements-gm.in
     #   lxml
-mutagen==1.47.0 \
-    --hash=sha256:719fadef0a978c31b4cf3c956261b3c58b6948b32023078a2117b1de09f0fc99 \
-    --hash=sha256:edd96f50c5907a9539d8e5bba7245f62c9f520aef333d13392a79a4f70aca719
+mutagen==1.48.1 \
+    --hash=sha256:4f077fe87d3fc7fba259aa63d8c026b18382ca6a42ef37c61e16f1b1b5b82fe7 \
+    --hash=sha256:8f95637ab9f6f305cec6bd1294e197debe207998e3e068596563c74f86b0a173
     # via -r requirements-gm.in
 newspaper4k==0.9.5 \
     --hash=sha256:2d38812c41bff900ec9663fa7ce47d0f2415576156449e980715f8ed5104829b \
