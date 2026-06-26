@@ -8,8 +8,8 @@ updates:
   - package-ecosystem: "pip" # See documentation for possible values
     directory: "/src" # Location of package manifests
     schedule:
-      interval: "daily"
-      time: "14:30"
+      interval: "cron"
+      cronjob: "30 14 */2 * *"
       timezone: "America/Vancouver"
     open-pull-requests-limit: 100
     #assignees:
