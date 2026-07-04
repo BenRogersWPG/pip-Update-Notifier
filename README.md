@@ -24,7 +24,7 @@ This project will *automatically* notify you in the form of a pull request when 
    5. Enable other dependabot options if you want to be notified on other aspects of your repository too. Also important if you want to be notified on security vulnerabilities.
 7. When using the generated requirements.txt file in your project, force hash requirements to ensure it verifies against your expected hashes:
 ```bash
-pip install --require-hashes --prefer-binary -r requirements.txt
+pip install --isolated --require-hashes --only-binary=:all: --no-cache-dir --no-deps --index-url https://pypi.org/simple -r requirements.txt
 ```
 
 ## What It Does
