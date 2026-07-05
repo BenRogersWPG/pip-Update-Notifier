@@ -550,9 +550,9 @@ pillow==12.2.0 \
     --hash=sha256:fb043ee2f06b41473269765c2feae53fc2e2fbf96e5e22ca94fb5ad677856f06 \
     --hash=sha256:fc3d34d4a8fbec3e88a79b92e5465e0f9b842b628675850d860b8bd300b159f5
     # via -r requirements-wm.in
-praw==8.0.1 \
-    --hash=sha256:18295994d07b17a565d4663a8778319243c56d7b49fae2504b448607551dfdff \
-    --hash=sha256:4083ae0a60d9784e1af4911fa4d87be3518c957636a4001de232fd82c9ac6353
+praw==8.0.2 \
+    --hash=sha256:22a988bef07e2d840ab062ae25f760c5bfc6367b9ecaab69f71e7ff511d75564 \
+    --hash=sha256:29bfe995f7f24017dd8eee36153085ad27de1740f13c7dcdb08df42a24a0dae2
     # via -r requirements-wm.in
 prawcore==4.0.0 \
     --hash=sha256:53f91bcd4cb25a26ca58f3ba7c5bf83d9d93a74025aae2c926bc6b0d5fd11df7 \
