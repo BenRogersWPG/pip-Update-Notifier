@@ -1,5 +1,5 @@
 PyGithub==2.9.1
 beautifulsoup4==4.15.0
 cryptography==48.0.1
-patchright==1.61.1
+patchright==1.61.2
 requests==2.34.2
