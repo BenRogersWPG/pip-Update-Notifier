@@ -9,7 +9,7 @@ updates:
     directory: "/src" # Location of package manifests
     schedule:
       interval: "cron"
-      cronjob: "30 14 */2 * *"
+      cronjob: "30 14 * * *"
       timezone: "America/Vancouver"
     open-pull-requests-limit: 100
     cooldown:
