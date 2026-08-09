@@ -1,5 +1,5 @@
 gtts==2.5.4
-packaging==26.2
+packaging==26.3
 python-dateutil==2.9.0.post0
 newspaper4k==0.9.6
 pillow==12.3.0
