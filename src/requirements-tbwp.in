@@ -3,5 +3,5 @@ beautifulsoup4==4.15.0
 requests==2.34.2
 pysocks==1.7.1
 pycparser==3.0
-packaging==26.2
+packaging==26.3
 cryptography==48.0.1
