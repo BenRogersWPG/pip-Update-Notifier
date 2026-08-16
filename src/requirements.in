@@ -1,0 +1,4 @@
+# Add all the items you wish to monitor here, along with their current version
+#   nameOfPackage==currentVersion
+#   similar to the valid entry below:
+requests==2.34.2
