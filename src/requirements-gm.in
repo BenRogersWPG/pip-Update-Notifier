@@ -11,5 +11,5 @@ PyYAML==6.0.3
 certifi==2026.7.22
 eyed3==0.9.9
 mutagen==1.48.1
-praw==8.0.2
+praw==8.0.3
 requests==2.34.2
