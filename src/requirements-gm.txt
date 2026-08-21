@@ -624,9 +624,9 @@ pillow==12.3.0 \
     # via
     #   -r requirements-gm.in
     #   newspaper4k
-praw==8.0.2 \
-    --hash=sha256:22a988bef07e2d840ab062ae25f760c5bfc6367b9ecaab69f71e7ff511d75564 \
-    --hash=sha256:29bfe995f7f24017dd8eee36153085ad27de1740f13c7dcdb08df42a24a0dae2
+praw==8.0.3 \
+    --hash=sha256:875e666248b14286f16dd85893dc6b38e726baec9b0bfbbc48dcd1964e2e377c \
+    --hash=sha256:9b1428eb27e75420010713a5d6e86e7444540164efbb89eba6e693df0a10a512
     # via -r requirements-gm.in
 prawcore==4.0.0 \
     --hash=sha256:53f91bcd4cb25a26ca58f3ba7c5bf83d9d93a74025aae2c926bc6b0d5fd11df7 \
