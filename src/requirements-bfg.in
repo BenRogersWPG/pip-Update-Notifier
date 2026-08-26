@@ -1,4 +1,4 @@
-PyGithub==2.9.1
+PyGithub==2.10.0
 beautifulsoup4==4.15.0
 cryptography==48.0.1
 patchright==1.62.1
