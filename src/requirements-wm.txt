@@ -694,9 +694,9 @@ soupsieve==2.9 \
     --hash=sha256:a2b2c76d67df2382d245409fd71e321a571717e58463efa32ace87dcadac2c12 \
     --hash=sha256:acee8417325c5653e1377dc31eccad59eb82cbc65942afe6174c53b3aaad63fc
     # via beautifulsoup4
-trio==0.34.0 \
-    --hash=sha256:63b9485408bdfdde544fced107045a8c0086cdc4bd0ef2f797b9e0dd111b964b \
-    --hash=sha256:6c7c9f49917694dcdcd5f67abd168df5599eca480d61f29854d17a61a75c2f05
+trio==0.35.0 \
+    --hash=sha256:7efb295c78a0ecd1235c5759e620b5da564ca80d2efcb0055423588547248b96 \
+    --hash=sha256:9a062a029487c1bdbcc1b2543b729a0bde857ce478b1512c84f391f628e0c5c9
     # via
     #   -r requirements-wm.in
     #   selenium

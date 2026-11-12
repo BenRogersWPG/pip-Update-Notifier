@@ -10,7 +10,7 @@ webdriver-manager==4.1.2
 sortedcontainers==2.4.0
 python-dotenv==1.2.4
 requests==2.34.2
-trio==0.34.0
+trio==0.35.0
 cryptography==48.0.1
 pillow==13.0.0
 selenium-wire== 5.1.0
