@@ -521,9 +521,9 @@ mutagen==1.48.1 \
     --hash=sha256:4f077fe87d3fc7fba259aa63d8c026b18382ca6a42ef37c61e16f1b1b5b82fe7 \
     --hash=sha256:8f95637ab9f6f305cec6bd1294e197debe207998e3e068596563c74f86b0a173
     # via -r requirements-gm.in
-newspaper4k==0.9.6 \
-    --hash=sha256:9e6cec341492ece65949543bd98d05142c99e38ee771778d4f2afa103f943556 \
-    --hash=sha256:a3f2f0e017dddb6f1019ee77aaa8980e13e6ecea0b949abc7167aae4770d2d0e
+newspaper4k==0.9.6.1 \
+    --hash=sha256:1a8353bc2b0ccd03bdbec52a06bfbf9fd6976d69b70550a8ad4d3d2defcb2a83 \
+    --hash=sha256:c0ee6d39a2579ec5d9f48110ff30f43e9f4ef59b1aa369abf742ba0ba85a3457
     # via -r requirements-gm.in
 packaging==26.3 \
     --hash=sha256:94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79 \
