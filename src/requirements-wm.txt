@@ -668,9 +668,9 @@ requests==2.34.2 \
     #   prawcore
     #   pygithub
     #   webdriver-manager
-selenium==4.52.0 \
-    --hash=sha256:40f423c598cc85390c403ef626c9d3457c1ae834d4cf1f38637ebba3cb6f0d7a \
-    --hash=sha256:caa2860d486f71cdeb21fee3248c2f604bba590120dfb4d3d18c4d7cf97c6f1f
+selenium==4.53.0 \
+    --hash=sha256:efb45b129cbd7f46da99c82e7d327978bda29ed987223465c341f96404a86a2c \
+    --hash=sha256:f0906a56324f5dfb19b87971a7cfd2162ea473e5afa25ee458aaa5a3816b98ac
     # via
     #   -r requirements-wm.in
     #   selenium-wire
